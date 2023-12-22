@@ -3,7 +3,7 @@ import { PropsWithChildren } from "react";
 const Card = (props: PropsWithChildren) => {
     const { children } = props;
     return (
-        <div>
+        <div className="bg-white p-8 text-black">
             {children}
         </div>
     )
